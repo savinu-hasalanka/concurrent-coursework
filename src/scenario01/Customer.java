@@ -1,7 +1,7 @@
 package scenario01;
 
 public class Customer implements Runnable {
-    private CoffeeShop coffeeShop;
+    private final CoffeeShop coffeeShop;
 
     public Customer(CoffeeShop coffeeShop) {
         this.coffeeShop = coffeeShop;
